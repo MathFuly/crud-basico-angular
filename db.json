@@ -1,0 +1,36 @@
+{
+  "produtos": [
+    {
+      "id": 3,
+      "name": "Del Vale",
+      "image": "https://www.delvalle.com.br/assets/images/products/product/dv-frut-450ml-uva-1121-lazy.jpg",
+      "desc": "Um suco Del Vale 200ml.",
+      "type": "bebida",
+      "price": 2.5
+    },
+    {
+      "id": 4,
+      "name": "Feijoada",
+      "image": "https://img.cybercook.com.br/receitas/776/feijoada.jpeg",
+      "desc": "Um Feijoada Muito Boa",
+      "type": "comida",
+      "price": 20
+    },
+    {
+      "id": 5,
+      "name": "Churrasco na Brasa",
+      "image": "https://pubimg.band.uol.com.br/files/1307321594d074a21c9f.png",
+      "desc": "Churrasco de Carne Muito Gostoso",
+      "type": "comida",
+      "price": 40
+    },
+    {
+      "id": 6,
+      "name": "Coca-Cola",
+      "image": "https://hiperideal.vteximg.com.br/arquivos/ids/197317-1000-1000/557250.jpg?v=637828717302570000",
+      "desc": "Coca-Cola Bem Geladinha",
+      "type": "bebida",
+      "price": 5.99
+    }
+  ]
+}

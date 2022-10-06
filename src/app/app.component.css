@@ -1,0 +1,15 @@
+footer {
+  background-color: #ccc;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.uiw {
+  min-height: 86vh;
+}

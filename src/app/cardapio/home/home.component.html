@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>{{ allCardapio[0].type }}s</h2>
+  <div class="card-card">
+    <div class="cardin" *ngFor="let item of allCardapio">
+      <div class="imgdiv"><img [src]="item.image" [alt]="item.name" /></div>
+      <div class="text">
+        <h2 class="title">{{ item.name }}</h2>
+        <p class="desc">{{ item.desc }}</p>
+        <p class="price">R${{ item.price.toFixed(2).replace(".", ",") }}</p>
+      </div>
+    </div>
+  </div>
+</div>

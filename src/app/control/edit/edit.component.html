@@ -1,0 +1,64 @@
+<div class="container">
+  <legend>Editando {{cardForm.name}}</legend>
+  <form>
+    <div class="mb-3">
+      <label for="txtname" class="form-label">Nome</label>
+      <input
+        type="text"
+        class="form-control"
+        id="txtName"
+        aria-describedby="emailHelp"
+        name="prodname"
+        [(ngModel)]="cardForm.name"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="txtquantity" class="form-label">Imagem:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="txtImage"
+        aria-describedby="emailHelp"
+        name="prodimage"
+        [(ngModel)]="cardForm.image"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="txtprice" class="form-label">Descrição</label>
+      <input
+        type="text"
+        class="form-control"
+        id="txtDesc"
+        aria-describedby="emailHelp"
+        name="desc"
+        [(ngModel)]="cardForm.desc"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="txtprice" class="form-label">Tipo</label>
+      <input
+        type="text"
+        class="form-control"
+        id="txtType"
+        aria-describedby="emailHelp"
+        name="type"
+        [(ngModel)]="cardForm.type"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="txtprice" class="form-label">Preço</label>
+      <input
+        type="number"
+        class="form-control"
+        id="txtPrice"
+        aria-describedby="emailHelp"
+        name="price"
+        [(ngModel)]="cardForm.price"
+      />
+    </div>
+
+    <button type="button" (click)="updateProduto()" class="btn btn-primary">
+      Submit
+    </button>
+  </form>
+</div>
